@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 using System.Xml.Linq;
 using Word = Microsoft.Office.Interop.Word;
 using Office = Microsoft.Office.Core;
@@ -13,6 +14,7 @@ namespace WordAddIn1
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            MessageBox.Show("OK");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
