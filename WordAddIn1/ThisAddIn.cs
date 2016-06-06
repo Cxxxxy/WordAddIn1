@@ -14,7 +14,7 @@ namespace WordAddIn1
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            MessageBox.Show("OK");
+            MessageBox.Show("OK2");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
